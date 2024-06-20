@@ -1,0 +1,50 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore any compiled DLLs or executables
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore packages folder
+packages/
+
+# Ignore configuration files
+*.config
+
+# Ignore Visual Studio specific files
+.vscode/
+.vs/
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Ignore Rider specific files
+.idea/
+*.sln.iml
+
+# Ignore files for local NuGet packages
+*.nupkg
+
+# Ignore lock file for NuGet
+project.lock.json
+project.fragment.lock.json
+
+# Ignore dependencies
+project.json
+project.lock.json
+
+# Ignore ASP.NET Scaffolding folder
+Scaffolding/
+
+# Ignore tool settings
+.dotnet_tools/
+
